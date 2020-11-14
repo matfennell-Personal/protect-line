@@ -16,6 +16,16 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Unit tests
+
+Jest + Enzyme tests located in `tests` folder.
+
+Run:
+
+```bash
+npm run test
+```
+
 ## Features
 
 - randomly selected hero image on load
