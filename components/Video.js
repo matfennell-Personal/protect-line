@@ -10,7 +10,7 @@ const Video = () => (
       .video {
         position: relative;
         width: 100%;
-        height: 35rem;
+        height: 45rem;
         overflow: hidden;
       }
       .video video {

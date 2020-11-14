@@ -57,7 +57,7 @@ const Faqs = () => {
           display: none;
         }
         .faqs__answers p {
-          font-size: 1.2rem;
+          font-size: 1.6rem;
           margin-bottom: 2rem;
         }
       `}</style>

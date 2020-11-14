@@ -33,7 +33,7 @@ const Explanation = () => (
         text-align: center;
       }
       .explanation p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
       }
       .explanation form {
         margin: 2rem 0 0 0;
