@@ -3,12 +3,14 @@
 An ES6 React [Next.js](https://nextjs.org/) project created for Protect Line.
 
 2 types of page have been created:
-- Home page
-- 'Whole of Life' Landing page
+- Generic landing page
+- 'Whole of Life' landing page
 
 The [BEM (Block Element Modifier)](http://getbem.com/) naming methodology has been used for class naming.
 
-Images from [https://unsplash.com/](https://unsplash.com/), video from [https://www.pexels.com/](https://www.pexels.com/).
+Images from [https://unsplash.com/](https://unsplash.com/), 
+Video from [https://www.pexels.com/](https://www.pexels.com/),
+Icons from [https://www.iconfinder.com/](https://www.iconfinder.com/).
 
 ## Running the app
 
@@ -22,7 +24,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the homepage.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the generic landing page.
 
 Open [http://localhost:3000/whole-of-life](http://localhost:3000/whole-of-life) in your browser to see the Whole of Life landing page.
 
@@ -40,7 +42,7 @@ npm run test
 
 ## Features across pages
 
-- Randomly selected hero image on load of home page
+- Randomly selected hero image on load of generic landing page
 - HTML5 video
 - Callback form
 - Quick quote form (custom range input)
@@ -65,7 +67,7 @@ The below explains the time taken on this project:
 - 1 hour writing unit tests
 - 0.5 hours browser testing
 - 0.5 hours optimisation
-- 4 hours for home page
+- 4 hours for generic landing page
 - 3 hours for 'Whole of Life' landing page
 
 Total: 10 hours

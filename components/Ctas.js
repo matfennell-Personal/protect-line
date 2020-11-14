@@ -1,9 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Ctas = () => (
   <section className="ctas">
   	<article className="cta">
+			<Image
+			  src="/icon-money.svg"
+			  alt="Money icon"
+			  width={30}
+			  height={30}
+			/>
+
   		<h3>From only £5 per month</h3>
   		<p>Our service is fee-free and starts from as little as £5 per month</p>
 
@@ -13,12 +21,26 @@ const Ctas = () => (
   	</article>
 
   	<article className="cta">
+			<Image
+			  src="/icon-trophy.svg"
+			  alt="Trophy icon"
+			  width={30}
+			  height={30}
+			/>
+
   		<h3>#1 life insurance broker</h3>
   		<p>You think we're doing a pretty good job so far - rating us #1 on Trustpilot</p>
   		<a>Read the reviews &#8250;</a>
   	</article>
 
   	<article className="cta">
+			<Image
+			  src="/icon-you.svg"
+			  alt="You icon"
+			  width={30}
+			  height={30}
+			/>
+
   		<h3>Insurance tailored to you</h3>
   		<p>Finding the right life insurance policy for you is our top priority</p>
   		<a>View the options &#8250;</a>
@@ -39,6 +61,9 @@ const Ctas = () => (
       	text-align: center;
       	width: 33.333%;
       	box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+      }
+      .cta h3 {
+      	margin-top: 1rem;
       }
       .cta p {
       	font-size: 1.6rem;
