@@ -7,9 +7,12 @@ import Footer from '../components/Footer';
 import Ctas from '../components/Ctas';
 import Faqs from '../components/Faqs';
 import Explanation from '../components/Explanation';
+import Content from '../components/Content';
+import Form from '../components/Form';
+import Video from '../components/Video';
 
 describe('<Header />', () => {
-  it('should have header components', () => {
+  it('should have header component', () => {
     const header = shallow(<Header />)
 
     expect(
@@ -29,7 +32,7 @@ describe('<Header />', () => {
 });
 
 describe('<Footer />', () => {
-  it('should have footer components', () => {
+  it('should have footer component', () => {
     const footer = shallow(<Footer />)
 
     expect(
@@ -49,7 +52,7 @@ describe('<Ctas />', () => {
 });
 
 describe('<Faqs />', () => {
-  it('should have Faqs components', () => {
+  it('should have Faqs component', () => {
     const faqs = shallow(<Faqs />)
 
     expect(
@@ -65,7 +68,7 @@ describe('<Faqs />', () => {
 });
 
 describe('<Explanation />', () => {
-  it('should have Faqs components', () => {
+  it('should have Explanation component', () => {
     const explanation = shallow(<Explanation />)
 
     expect(
@@ -81,5 +84,59 @@ describe('<Explanation />', () => {
     expect(
       explanation.find('form')
     ).toHaveLength(1);
+  });
+});
+
+describe('<Content />', () => {
+  it('should have Content component', () => {
+    const content = shallow(<Content />)
+
+    expect(
+      content.find('h1').text()
+    ).toEqual(
+      "Whole of Life Insurance"
+    );
+
+    expect(
+      content.find('h2').text()
+    ).toEqual(
+      "Peace of mind for your whole life."
+    );
+
+    expect(
+      content.find('p')
+    ).toHaveLength(4);
+  });
+});
+
+describe('<Form />', () => {
+  it('should have Form component', () => {
+    const form = shallow(<Form />)
+
+    expect(
+      form.find('h3').text()
+    ).toEqual(
+      "Quick Quote"
+    );
+
+    expect(
+      form.find('p').text()
+    ).toEqual(
+      "Fill in the below for a free, instant quick quote:"
+    );
+
+    expect(
+      form.find('form')
+    ).toHaveLength(1);
+  });
+});
+
+describe('<Video />', () => {
+  it('should have Video component', () => {
+    const video = shallow(<Video />)
+
+    expect(
+      video.find('video')
+    ).toHaveLength(1); 
   });
 });

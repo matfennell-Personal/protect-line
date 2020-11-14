@@ -24,7 +24,6 @@ const Video = () => (
           bottom: -20%;
         }
       }
-
       @media screen and (max-width: 880px) {
         .video {
           height: auto;

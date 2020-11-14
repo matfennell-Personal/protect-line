@@ -29,9 +29,6 @@ const Home = () => (
     </main>
 
     <Footer />
-
-    <style jsx>{`
-    `}</style>
   </>
 );
 
